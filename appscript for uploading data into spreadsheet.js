@@ -1,7 +1,7 @@
 function doPost(args){
     var ss = SpreadsheetApp.getActiveSpreadsheet();
     var sheets = ss.getSheets();
-    var size = Object.keys(sheet).length;
+    var size = Object.keys(sheets).length;
     console.log(size);
     console.log(sheet[0].getName());
     // selecting sheet
